@@ -1,0 +1,61 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffcc33, #ff66cc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            font-family: 'Inter', sans-serif;
+            color:purple;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: purple;
+            font-family: 'Inter', sans-serif;
+            font-size: 40px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+        width: calc(100% - 22px); /* 22px = 2 * padding (10px) + 2 * border (1px) */
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box; /* Padding és border ne növelje a méretet */
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff66cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff3399;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            word-break: break-all;
+            color: purple;
+            font-family: 'Inter', sans-serif;
+        }
