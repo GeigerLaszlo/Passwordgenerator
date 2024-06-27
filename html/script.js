@@ -5,7 +5,7 @@ function generatePassword() {
         return;
     }
     if (length < 8) {
-        document.getElementById('result').textContent = 'Password should be at least 8 characters long for security purposes.';
+        document.getElementById('result').textContent = 'Password should be min. 8 characters long for security purposes.';
         return;
     }
 
