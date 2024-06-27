@@ -44,3 +44,11 @@ Generate a password with a specified length (e.g., 16 characters):
 Display the help message:
 
     ./PasswordGenerator.sh --help
+
+## OR 
+
+You can use PasswordGenerator online: https://geigerlaszlo.github.io/Passwordgenerator/main.html
+
+## Screenshot: 
+![image](https://github.com/GeigerLaszlo/Passwordgenerator/assets/44606585/ee2eded7-375a-4bed-812b-64998923c920)
+
